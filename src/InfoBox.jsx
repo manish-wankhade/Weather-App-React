@@ -13,7 +13,9 @@ export default function InfoBox({info}){
     
 
 
-    const INIT_URL=`http://source.unsplash.com/345x140/?${info.city}`;
+    // const INIT_URL = "/weather.jpg"; // Static image from the public folder
+    const INIT_URL = `https://picsum.photos/345/140?random=${info.city}`;
+
 
 
     return(
