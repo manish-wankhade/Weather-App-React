@@ -37,7 +37,7 @@ export default function InfoBox({info}){
                             ?<WbSunnyIcon/>
                             :<AcUnitIcon/>
                         }
-                        </Typography>
+                        </Typography> 
                         <Typography variant="body2" color="text.secondary" component={"span"}>
                         <p><b>Temperatur: {info.temp}&deg;C</b></p>
                         <p>Humidity ={info.humidity}</p>
